@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.979525">
+<testcase classname="Login to Application" name="Login using Username and Pwd" time="13.979525">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+And Home page is launched...................................................passed
+Given User is on Main page..................................................passed
+When User click on Login button.............................................passed
+And enter "Username" and "password".........................................undefined
+Then Payment successful page is displayed...................................skipped
+And Username displayed on the top right corner..............................skipped
+]]></failure>
+</testcase>
+</testsuite>

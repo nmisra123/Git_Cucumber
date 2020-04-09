@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#Prerequisite for executing your scenarios within this feature file"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 166740693,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the browser",
+            "match": {
+              "location": "preRequisite.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70827,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "preRequisite.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67414,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "preRequisite.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66560,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Home page is launched",
+            "match": {
+              "location": "preRequisite.home_page_is_launched()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#using tags"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 9051503426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.BeforeValidation1()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login using Username and Pwd",
+        "description": "",
+        "id": "login-to-application;login-using-username-and-pwd",
+        "after": [
+          {
+            "result": {
+              "duration": 75094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.AfterValidation1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3734191,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefination.user_is_on_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152746,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on Login button",
+            "match": {
+              "location": "webTestSteps.user_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188587,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter User name and password",
+            "match": {
+              "location": "webTestSteps.enter_User_name_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60587,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Payment successful page is displayed",
+            "match": {
+              "location": "stepDefination.payment_successful_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123307,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Username displayed on the top right corner",
+            "match": {
+              "location": "webTestSteps.username_displayed_on_the_top_right_corner()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Makemytrip"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Application",
+    "description": "",
+    "id": "login-to-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/webtest.feature"
+  }
+]
